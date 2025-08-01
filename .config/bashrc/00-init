@@ -1,0 +1,13 @@
+# -----------------------------------------------------
+# INIT
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# Exports
+# -----------------------------------------------------
+export EDITOR=nvim
+export ANDROID_HOME="/home/rowan/Android/Sdk"
+export PATH="/usr/lib/ccache/bin/:/usr/local/bin/idea/bin:/usr/local/bin/Discord:/user/local/bin/android-studio/bin:$ANDROID_HOME/platform-tools:$PATH"
+export PATH=$PATH:~/.cargo/bin/
+
+. "$HOME/.cargo/env"
